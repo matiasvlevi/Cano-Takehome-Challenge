@@ -1,0 +1,13 @@
+.scrollBox {
+  overflow-y: scroll;
+  max-height: 40rem;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px 0px inset;
+}
+
+.TopTray {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+}
