@@ -31,7 +31,7 @@ function App() {
   const handleSearch = (e: any) => {
     setSearch(e.target.value)
     // Sort products by name
-    setProducts(sortProductsByStringMatch(products, "name", search));
+    setProducts(sortProductsByStringMatch(products, "name", e.target.value));
 
     // Cancel score sort
     setSortMode("none");
