@@ -18,4 +18,4 @@ npm run dev
 npm run build
 ```
 
-[Deployed Example]()
+[See Deployed Static Example](https://matiasvlevi.github.io/Cano-Takehome-Challenge)
